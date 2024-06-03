@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-import "../Navbar/NavBar.css";
+import "../Navbar/Navbar.css";
 import { LiaPhoneSolid } from "react-icons/lia";
 import { IoIosMail, IoIosSearch, IoIosHeartEmpty } from "react-icons/io";
 import { SlSocialInstagram } from "react-icons/sl";
@@ -54,7 +54,7 @@ function NavBar() {
 
           <div className="down-nav">
             <div className="logo-div">
-              <h1 className="logo">Bandage</h1>
+              <h3 className="logo">Bandage</h3>
               <nav className="nav-links">
                 <NavLink className="nav-link" to="/">
                   Home

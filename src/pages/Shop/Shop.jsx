@@ -1,17 +1,17 @@
 import "../Shop/Shop.css";
 import { Link } from "react-router-dom";
-import NavBar from "../components/NavBar";
-import ProductCard from "../components/ProductCard";
+import NavBar from "../../components/Navbar/Navbar";
+import ProductCard from "../../components/ProductCard/ProductCard";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import img from "../../assets/images/reading.png";
-import BestSellers from "../components/BestSeller";
+import BestSellers from "../../components/BestSeller/BestSeller";
 import hoo from "../../assets/images/fa-brands-1.png";
 import left from "../../assets/images/fa-brands-2.png";
 import leaf from "../../assets/images/fa-brands-3.png";
 import stripe from "../../assets/images/fa-brands-4.png";
 import aws from "../../assets/images/fa-brands-5.png";
 import dot from "../../assets/images/fa-brands-6.png";
-import Footer from "../../components/Footer";
+import Footer from "../../components/Footer/Footer";
 
 function Shop() {
   return (

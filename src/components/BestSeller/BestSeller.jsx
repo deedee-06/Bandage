@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "../BestSeller/BestSeller.css";
 import { useDispatch } from "react-redux";
-import { setItem } from "../features/ProductState";
+import { setItem } from "../../features/ProductState";
 import { useNavigate, useLocation } from "react-router-dom";
 
 function BestSellers() {

@@ -5,10 +5,10 @@ import NavBar from "../../components/Navbar/Navbar";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { FaStar } from "react-icons/fa";
 import { RiDeleteBin6Line } from "react-icons/ri";
-import Footer from "../components/Footer";
-import BestSellers from "../components/BestSeller";
+import Footer from "../../components/Footer/Footer"
+import BestSellers from "../../components/BestSeller/BestSeller";
 import { useDispatch, useSelector } from "react-redux";
-import { removeFromCart, setQty } from "../features/CartState";
+import { removeFromCart, setQty } from "../../features/CartState";
 
 function Cart() {
   const cart = useSelector((state) => state.cart.items);

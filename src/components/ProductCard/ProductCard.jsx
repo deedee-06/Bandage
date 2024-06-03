@@ -6,7 +6,7 @@ import { IoIosHeartEmpty } from "react-icons/io";
 import { IoEye } from "react-icons/io5";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
-import { setCart } from "../features/CartState";
+import {setCart} from "../../features/CartState"
 import { Link, useNavigate } from "react-router-dom";
 
 function ProductCard() {
