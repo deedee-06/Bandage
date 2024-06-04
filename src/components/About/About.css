@@ -22,6 +22,7 @@
   font-weight: 700;
   line-height: 32px;
   text-align: center;
+  color:#252B42
 }
 
 .user {
@@ -31,6 +32,8 @@
   align-items: center;
   gap: 10px;
   text-align: center;
+  color: #737373
+
 }
 
 .user img {
@@ -72,6 +75,7 @@
   font-weight: 700;
   line-height: 24px;
   text-align: center;
+  color: #252B42
 }
 
 .right {

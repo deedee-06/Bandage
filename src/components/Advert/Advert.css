@@ -28,6 +28,7 @@
   font-weight: 700;
   line-height: 50px;
   text-align: center;
+  color: #252B42;
 }
 
 .content p {
@@ -36,6 +37,7 @@
   font-weight: 400;
   line-height: 20px;
   text-align: center;
+  color: #737373;
 }
 
 .content h3 {
@@ -49,6 +51,7 @@
 .content button {
   width: 292px;
   height: 52px;
+  font-weight: 700;
   color: white;
   background-color: #23a6f0;
   border: 1px solid #23a6f0;

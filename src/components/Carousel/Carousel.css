@@ -14,6 +14,7 @@
 .right-carousel {
   display: flex;
   flex-direction: column;
+  align-items: start;
   height: 100%;
   width: 452px;
   background-image: url("/src/assets/images/card-cover-5.png");
@@ -24,6 +25,7 @@
 .right-carousel h2 {
   padding: 0 24px;
   margin: 0px;
+  color:#252B42;
 }
 
 .right-carousel p {
@@ -37,7 +39,7 @@
 
 .right-carousel a {
   text-decoration: none;
-  color: black;
+  color: #252b42;
   font-size: 14px;
   line-height: 24px;
   font-weight: 700;
@@ -55,6 +57,7 @@
 .left-carousel h3 {
   padding: 0 24px;
   margin: 0;
+  color: #252B42;
 }
 
 .left-carousel p {
@@ -68,7 +71,7 @@
 
 .left-carousel a {
   text-decoration: none;
-  color: black;
+  color: #252B42;
   font-size: 14px;
   line-height: 24px;
   font-weight: 700;
@@ -80,6 +83,7 @@
   width: 679px;
   display: flex;
   flex-direction: column;
+  align-items: start;
   background-image: url("/src/assets/images/card-cover-6.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -87,6 +91,7 @@
 
 .bottom-carousel {
   display: flex;
+  align-items: start;
   gap: 15px;
   height: 300px;
   width: 679px;
@@ -95,6 +100,7 @@
 .bottom-carousel-one {
   display: flex;
   flex-direction: column;
+  align-items: start;
   height: 100%;
   width: 332px;
   background-image: url("/src/assets/images/card-cover-6i.png");
@@ -103,6 +109,7 @@
 .bottom-carousel-two {
   display: flex;
   flex-direction: column;
+  align-items: start;
   height: 100%;
   width: 332px;
   background-image: url("/src/assets/images/card-cover-7.png");
