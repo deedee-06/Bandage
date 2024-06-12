@@ -1,15 +1,14 @@
-
 import "../About/About.css"
 import user from "../../assets/images/user.png";
-import img1 from "../../assets/images/img1.png";
-import img2 from "../../assets/images/img2.png";
-import img3 from "../../assets/images/img3.png";
-import img4 from "../../assets/images/img4.png";
-import img5 from "../../assets/images/img5.png";
-import img6 from "../../assets/images/img6.png";
-import img7 from "../../assets/images/img7.png";
-import img8 from "../../assets/images/img8.png";
-import img9 from "../../assets/images/img9.png";
+import camera from "../../assets/images/camera.png";
+import model1 from "../../assets/images/model1.png";
+import city from "../../assets/images/city.png";
+import icecream from "../../assets/images/icecream.png";
+import model2 from "../../assets/images/model2.png";
+import writer from "../../assets/images/writer.png";
+import mountain from "../../assets/images/mountain.png";
+import land from "../../assets/images/land.png";
+import sea from "../../assets/images/sea.png";
 import { FaStar } from "react-icons/fa";
 import { CiStar } from "react-icons/ci";
 
@@ -21,10 +20,10 @@ function About() {
         <div className="user">
           <img src={user} alt="image" />
           <span>
-            <FaStar className="colored-star" />
-            <FaStar className="colored-star" />
-            <FaStar className="colored-star" />
-            <FaStar className="colored-star" />
+            <FaStar className="star" />
+            <FaStar className="star" />
+            <FaStar className="star" />
+            <FaStar className="star" />
             <CiStar className="bg-star" />
           </span>
           <p>
@@ -37,15 +36,15 @@ function About() {
       </div>
 
       <div className="right">
-        <img src={img1} alt="images" />
-        <img src={img2} alt="images" />
-        <img src={img3} alt="images" />
-        <img src={img4} alt="images" />
-        <img src={img5} alt="images" />
-        <img src={img6} alt="images" />
-        <img src={img7} alt="images" />
-        <img src={img8} alt="images" />
-        <img src={img9} alt="images" />
+        <img src={camera} alt="images" />
+        <img src={model1} alt="images" />
+        <img src={city} alt="images" />
+        <img src={icecream} alt="images" />
+        <img src={model2} alt="images" />
+        <img src={writer} alt="images" />
+        <img src={mountain} alt="images" />
+        <img src={land} alt="images" />
+        <img src={sea} alt="images" />
       </div>
     </div>
   );
